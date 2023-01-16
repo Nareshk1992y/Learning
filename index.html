@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>React</title>
+</head>
+    <body>
+        <div id='root'>Not rendered</div>
+            <!-- the below mentioned elements will be overridden and replaced by react -->
+            <!-- <h1 id="title">Heading</h1>
+            <h1 id="title">Heading</h1>
+            <h1 id="title">Heading</h1>
+            <h1 id="title">Heading</h1>
+            <h1 id="title">Heading</h1>
+            <h1 id="title">Heading</h1>
+            <h1 id="title">Heading</h1> -->
+        <!-- </div> -->
+    
+        <!-- the below mentioned lines will include react to our app via CDN links -->
+
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+    <!-- type="module" adding this type is very important else browser will not understand import and export statements
+    and it will throw an error and app will not come up -->
+
+    <script type="module" src='App.js'>
+       
+    </script>
+    </body>
+</html>
